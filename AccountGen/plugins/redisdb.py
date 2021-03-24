@@ -1,3 +1,16 @@
+#    AccountsGenBot
+#    Copyright (C) 2021 xditya
+
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+
+#    See < https://github.com/HUNTER809/Account-gen-bot-telegram/blob/master/LICENSE > 
+#    for the license.
+
+# basic stuff by @Arnab431
+
 from .. import *
 
 def str_to_list(text):  # Returns List
@@ -37,22 +50,3 @@ def get_all_users():  # Returns List
         return ['']
     else:
         return str_to_list(users)
-)
-    if not id.isdigit():
-        return False
-    try:
-        users = get_all_users()
-        users.append(id)
-        xdi.set("BOT_USERS", list_to_str(users))
-        return True
-    except Exception as e:
-        print(f"./add_user : {e}")
-        return False
-
-def get_all_users():  # Returns List
-    users = xdi.get("BOT_USERS")
-    if users is None or users == '':
-        return ['']
-    else:
-        return str_to_list(users)
-)
