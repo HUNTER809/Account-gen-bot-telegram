@@ -31,7 +31,7 @@ You can deploy this bot anywhere.
 <details><summary>Local Machine</summary>
 <p>
 Open a terminal. </br>
-Clone the repository <code>git clone https://github.com/HUNTER809/Account-gen-bot-telegram/ && cd AccountGenBot</code> </br>
+Clone the repository <code>git clone https://github.com/HUNTER809/Account-gen-bot-telegram && cd AccountGenBot</code> </br>
 Install requirements:
 <code>pip3 install -r requirements.txt</code> </br>
 Create a <code>.env</code> file with the vars. Follow these: </br>
@@ -44,7 +44,7 @@ Now send /start to you bot to see if it is running! </br>
 </details>
 
 ## Support   
-Join the [telegram group](https://t.me/BotzHubChat) for support and the [channel](https://t.me/BotzHub) for updates.   
+Join the [telegram network](https://t.me/HackerSpoilt_Network) for support and the [channel](https://t.me/HackerSpoilt) for updates.   
    
 Report bugs, give feature requests there..   
 Do fork and star the repository if you liked it.
