@@ -7,8 +7,8 @@
         "telethon",
         "telegram-bot"
     ],
-    "check": "https://t.me/HackerSpoilt_Network",
-    "website": "https://t.me/HackerSpoilt",
+    "repository": "https://github.com/HUNTER809/Account-gen-bot-telegram",
+    "website": "hackerspoilt-cc.netlify.app",
     "success_url": "https://t.me/HackerSpoilt",
     "env": {
         "API_HASH": {
