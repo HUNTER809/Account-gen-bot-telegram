@@ -8,8 +8,8 @@
         "telegram-bot"
     ],
     "repository": "https://github.com/HUNTER809/Account-gen-bot-telegram",
-    "website": "hackerspoilt-cc.netlify.app",
-    "success_url": "https://t.me/HackerSpoilt",
+    "website": "xditya.me",
+    "success_url": "https://t.me/HackerSpoilt_Network",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
@@ -56,8 +56,5 @@
         {
             "url": "heroku/python"
         }
-    ]
-}
-  }
     ]
 }
