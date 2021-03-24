@@ -1,5 +1,4 @@
 # Account-gen-bot-telegram
-# Account Generator Bot
 Account Generator Bot, runs on python (telethon), with redis as database.
 
 # Variables
