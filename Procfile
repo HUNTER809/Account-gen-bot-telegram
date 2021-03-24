@@ -1,1 +1,1 @@
-BotzHub: python -m AccountGen
+HackerSpoilt: python -m AccountGen
