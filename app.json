@@ -1,0 +1,63 @@
+{
+    "name": "Accounts Generator Bot",
+    "description": "Python based bot to generate accounts.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot"
+    ],
+    "check": "https://t.me/HackerSpoilt_Network",
+    "website": "https://t.me/HackerSpoilt",
+    "success_url": "https://t.me/HackerSpoilt",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram UserID.",
+            "value": ""
+        },
+        "ACCOUNTS": {
+            "description": "Raw Link to your accounts, read the ReadMe for more info.",
+            "value": ""
+        },
+        "CHANNEL": {
+            "description": "Channel link/@username for force join, leave for disabling force join. The bot must be admin in that channel.",
+            "value": ""
+        },
+        "START": {
+            "description": "Start message. Use {mention} to mention the other user.",
+            "value": ""
+        },
+        "ACC_NAME": {
+            "description": "Name of the account the bot generates",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis Database URL, get it from redislabs.com. Read ReadMe for more info.",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis Database Password, get it from redislabs.com. Read ReadMe for more info.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
+  }
+    ]
+}
